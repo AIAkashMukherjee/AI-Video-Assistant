@@ -5,7 +5,8 @@
 /summarization/__pycache__
 /prompts/__pycache__
 /core/__pycache__
-/extraction/__pycache__
+src/extraction/__pycache__
 /preprocessing/__pycache__
 /utils/__pycache__
 /transcription/__pycache_
+/src/__pycache__

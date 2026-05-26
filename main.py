@@ -1,5 +1,5 @@
 from src.utils.audio import process_input
-from src.summarization.transcription.base import transcribe_all
+from src.transcription.base import transcribe_all
 from src.summarization.title_generator import generate_title
 from src.summarization.summarizer import summarize
 from src.extraction.action_items import extract_action_items
