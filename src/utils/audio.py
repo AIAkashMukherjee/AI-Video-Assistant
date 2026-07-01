@@ -20,13 +20,12 @@ def download_youtube_audio(url :str) ->str:
                 "preferredquality": "192",
             }
         ],
-        "quiet": True, # remvoe this if you want to see downlaod progress
+        "quiet": True, 
     }
 
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         info = ydl.extract_info(url, download=True)
         # filename = ydl.prepare_filename(info).replace(".webm", ".wav").replace(".m4a", ".wav")
-        # import os
         filename = os.path.splitext(ydl.prepare_filename(info))[0] + ".wav"
     return filename
 
