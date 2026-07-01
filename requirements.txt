@@ -136,9 +136,9 @@ threadpoolctl==3.6.0
 tiktoken==0.13.0
 tokenizers==0.22.2
 toml==0.10.2
+--extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.12.0
 torchaudio==2.11.0
-torchvision==0.27.0
 tqdm==4.67.3
 transformers==5.8.1
 typer==0.25.1
@@ -158,3 +158,4 @@ yarl==1.23.0
 yt-dlp==2026.3.17
 zipp==3.23.1
 zstandard==0.25.0
+audioop-lts>=0.2.2; python_version >= "3.13"
